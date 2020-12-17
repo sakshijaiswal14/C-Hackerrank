@@ -7,7 +7,6 @@ void update(int *a,int *b) {
     *a=*a + *b;
     *b=abs( *a -*b -*b);
 }
-
 int main() {
     int a, b;
     int *pa = &a, *pb = &b;
